@@ -1,0 +1,42 @@
+print("=== CALCULATOR ===")
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("\nChoose Operation")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+print("5. Modulus")
+
+choice = input("Enter your choice (1-5): ")
+
+if choice == "1":
+    result = num1 + num2
+    print("Result =", result)
+
+elif choice == "2":
+    result = num1 - num2
+    print("Result =", result)
+
+elif choice == "3":
+    result = num1 * num2
+    print("Result =", result)
+
+elif choice == "4":
+    if num2 != 0:
+        result = num1 / num2
+        print("Result =", result)
+    else:
+        print("Division by zero is not allowed.")
+
+elif choice == "5":
+    if num2 != 0:
+        result = num1 % num2
+        print("Result =", result)
+    else:
+        print("Modulus by zero is not allowed.")
+
+else:
+    print("Invalid Choice")

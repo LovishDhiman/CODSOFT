@@ -1,15 +1,22 @@
-# CODSOFT
-CodSoft Python Programming Internship Tasks
-## Task - Calculator
+CODSOFT Python Internship
+Completed Tasks
+1. Calculator
 
-A simple calculator developed using Python.
+A Python calculator that performs:
 
-### Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Modulus
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+2. Password Generator
 
-### Developed By
+A Python program that generates random passwords based on user-defined length.
+
+3. Rock Paper Scissors Game
+
+A simple game where the user plays Rock, Paper, Scissors against the computer.
+
+Developed By
+
 Lovish Dhiman
